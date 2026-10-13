@@ -1,9 +1,9 @@
-# Nadir Saidi — Personal Portfolio Website
+# Nadir  — Personal Portfolio Website
 ### Theme: "The Living Signal"
 
 > Naturally futuristic: bioluminescent, organic, calm. A deep-sea and night-forest network where signals travel between nodes like mycelium.
 
-This repository is a production-ready personal portfolio built for **Nadir Saidi** (4th-year Software Engineering student at BAU in Istanbul), designed with inspiration from [Paragon Productions](https://www.paragonproductions.co/).
+This repository is a production-ready personal portfolio built for **Nadir ** (Software Engineering student at BAU in Istanbul), designed with inspiration from [Paragon Productions](https://www.paragonproductions.co/).
 
 ---
 
@@ -157,7 +157,7 @@ fly deploy
 
 ---
 
-## [TODO] Checklist for Owner (Nadir Saidi)
+## [TODO] Checklist for Owner (Nadir)
 
 The following items are marked with `[TODO]` and ready for you to fill in:
 
