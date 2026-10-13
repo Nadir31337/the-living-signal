@@ -226,14 +226,26 @@ class GenerativeAudioEngine {
   }
 
   // Waveform data for the visualizer
-  public getWaveformData(outputArray: Uint8Array): boolean {
+  public getWaveformData(outputArray: ArrayBufferView): boolean {
     if (!this.analyser || this.isMuted) {
-      if (outputArray && typeof outputArray.fill === "function") {
-        outputArray.fill(128);
+      if (outputArray && typeof (outputArray as Uint8Array).fill === "function") {
+        (outputArray as Uint8Array).fill(128);
       }
       return false;
     }
-    this.analyser.getByteTimeDomainData(outputArray);
+
+    const u8 =
+      outputArray instanceof Uint8Array
+        ? outputArray
+        : new Uint8Array(
+            outputArray.buffer,
+            outputArray.byteOffset,
+            outputArray.byteLength
+          );
+
+    this.analyser.getByteTimeDomainData(
+      u8 as unknown as Parameters<AnalyserNode["getByteTimeDomainData"]>[0]
+    );
     return true;
   }
 }
