@@ -1,0 +1,17 @@
+{
+  "closingCta": "Got something worth building?",
+  "ctaButton": "Let's talk",
+  "heading": "Let's build something reliable.",
+  "text": "I'm looking for a software engineering internship. If you have a team that values clean APIs, tests and curiosity, I'd love to talk.",
+  "form": {
+    "fields": {
+      "name": { "label": "Your Name", "placeholder": "Ada Lovelace" },
+      "email": { "label": "Email Address", "placeholder": "ada@example.com" },
+      "message": { "label": "Message", "placeholder": "Tell me about your project, team, or internship role..." }
+    },
+    "submitLabel": "Transmit Message",
+    "submittingLabel": "Transmitting Signal...",
+    "successMessage": "Signal received! Thank you for reaching out. I'll get back to you shortly.",
+    "errorMessage": "Transmission failed. Please verify your connection or reach out directly at mohn4560@gmail.com."
+  }
+}

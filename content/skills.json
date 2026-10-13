@@ -1,0 +1,28 @@
+{
+  "clusters": [
+    {
+      "category": "Languages & Frameworks",
+      "description": "Core programming languages and backend frameworks engineered for high-throughput, maintainable services.",
+      "skills": ["Python", "Java", "FastAPI", "Django", "Spring Boot"]
+    },
+    {
+      "category": "Engineering Practice",
+      "description": "Architectural principles, testing methodologies, and integration workflows.",
+      "skills": [
+        "REST API development and integration",
+        "API monitoring and reliability",
+        "Automated testing and API quality",
+        "Requirements analysis and software specification",
+        "Data collection and processing",
+        "AI application integration"
+      ]
+    },
+    {
+      "category": "Tools & Version Control",
+      "description": "Foundational tooling for collaborative and versioned development.",
+      "skills": ["Git", "GitHub"]
+    }
+  ],
+  "_todo_placeholder": "[TODO] databases / testing frameworks / Docker / CI-CD / AI libraries",
+  "show_todo_placeholder": false
+}

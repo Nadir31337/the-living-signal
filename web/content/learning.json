@@ -1,0 +1,30 @@
+{
+  "heading": "Currently Learning",
+  "subheading": "Deepening capabilities across infrastructure, automation, and intelligent models.",
+  "cards": [
+    {
+      "step": "01",
+      "topic": "AI Model Integration",
+      "summary": "Bridging large language models and reasoning frameworks into deterministic software systems via structured schema validation, streaming protocols, and semantic tool calling.",
+      "focus": "Function calling, prompt sandboxing, output parsing, local model inference"
+    },
+    {
+      "step": "02",
+      "topic": "Cloud-Based Deployment",
+      "summary": "Building resilient containerized deployments, zero-downtime rolling updates, and distributed service configurations for modern cloud platforms.",
+      "focus": "Docker containerization, health check readiness, ingress routers, serverless container hosting"
+    },
+    {
+      "step": "03",
+      "topic": "Automated Testing",
+      "summary": "Designing multi-tier test architectures: contract verification, fuzz testing, end-to-end integration workflows, and continuous test automation in CI/CD pipelines.",
+      "focus": "Pytest fixtures, mock services, property-based testing, performance regression detection"
+    },
+    {
+      "step": "04",
+      "topic": "Machine-Learning Fundamentals",
+      "summary": "Studying core mathematical intuition and practical algorithms behind vector embeddings, semantic search, classification pipelines, and feature engineering.",
+      "focus": "Vector similarity, classification metrics, data preprocessing, model evaluation"
+    }
+  ]
+}

@@ -1,0 +1,92 @@
+{
+  "projects": [
+    {
+      "id": "api-monitoring-platform",
+      "slug": "api-monitoring-platform",
+      "title": "API Monitoring Platform",
+      "status": "IN DEVELOPMENT",
+      "tagline": "Know when your APIs change before your users do.",
+      "description": "A platform to monitor API availability and service behavior: scheduled checks, response monitoring and reliability reporting. Built with a focus on clean backend architecture, testability and practical API quality workflows.",
+      "nodeIndex": 0,
+      "color": "#4FFFD0",
+      "details": {
+        "overview": "Modern distributed architectures depend on reliable upstream and downstream APIs. The API Monitoring Platform is engineered to perform automated synthetic probes, measure uptime and latency drift, and alert engineers before silent contract regressions affect production users.",
+        "problem": "Silent API failures, gradual latency regressions, and unexpected contract schema changes often escape conventional unit tests and only manifest under live production traffic. Manual health verification does not scale.",
+        "architectureDiagram": "Client Check Trigger -> Scheduler (Worker Pool) -> HTTP Probe Engine -> Response & Contract Validator -> Time-series Metrics / Alerts Store",
+        "technologies": ["Python", "FastAPI", "PostgreSQL", "Pydantic", "Docker", "Pytest"],
+        "highlights": [
+          "Scheduled health checks with sub-second latency measurements",
+          "Payload validation against strict expected schema definitions",
+          "Automated reliability status reporting and alert dispatching"
+        ],
+        "ownerNote": "Core scheduler and probe worker logic active. Integration with distributed telemetry dashboards in development."
+      }
+    },
+    {
+      "id": "multilingual-support-ticket-router",
+      "slug": "multilingual-support-ticket-router",
+      "title": "Multilingual Support Ticket Router",
+      "status": "IN DEVELOPMENT",
+      "tagline": "The right ticket, the right team, in any language.",
+      "description": "A customer-support routing application exploring automated language identification, ticket classification, and rule-based or AI-assisted routing to improve support workflows through structured processing and automation.",
+      "nodeIndex": 1,
+      "color": "#B8FF6B",
+      "details": {
+        "overview": "International software products receive inquiries across Arabic, French, English, Turkish, and many other languages. This routing service classifies incoming customer queries by linguistic token distribution, infers query urgency, and assigns tickets directly to the specialized engineering or support pod.",
+        "problem": "Support teams lose critical response hours triage-tagging tickets manually across multilingual queues, causing SLA breaches and routing errors for urgent technical incidents.",
+        "architectureDiagram": "Incoming Webhook/API -> Language Detection Layer -> NLP Classification Engine -> Priority & Team Routing Rules -> Destination Queue Dispatcher",
+        "technologies": ["Python", "FastAPI", "AI/NLP Integration", "Pydantic", "Redis Queue", "Pytest"],
+        "highlights": [
+          "Automatic multilingual language classification (Arabic, French, English, Turkish)",
+          "Rule-based deterministic routing with fallback AI-assisted categorization",
+          "Strict Pydantic payload sanitization preventing injection and routing anomalies"
+        ],
+        "ownerNote": "Rule router and language heuristics implemented; fine-tuning priority scoring model."
+      }
+    },
+    {
+      "id": "cross-border-price-deal-aggregator",
+      "slug": "cross-border-price-deal-aggregator",
+      "title": "Cross-Border Price & Deal Aggregator",
+      "status": "IN DEVELOPMENT",
+      "tagline": "One fair comparison across every market.",
+      "description": "A concept for comparing product prices and deals across markets, exploring external data sources, price normalization, currency conversion and cross-market comparison.",
+      "nodeIndex": 2,
+      "color": "#4FFFD0",
+      "details": {
+        "overview": "Global commerce pricing varies widely across currencies, tax boundaries, and regional distributor margins. This backend engine ingests structured market listings, normalizes volatile exchange rates, and computes true price parity for international buyers.",
+        "problem": "Comparing international product prices requires fetching heterogeneous schemas across varying currencies, managing volatile FX fluctuations, and handling irregular rate-limiting policies across third-party endpoints.",
+        "architectureDiagram": "Data Ingest Connectors -> FX Rate Normalizer -> De-duplication & Schema Standardizer -> Price Index Database -> Aggregation REST API",
+        "technologies": ["Python", "Java (Spring Boot)", "REST API Integration", "Data Processing", "Pytest"],
+        "highlights": [
+          "Heterogeneous catalog ingestion and field normalization",
+          "Real-time currency conversion using cached FX provider feeds",
+          "Fault-tolerant external API client with retry backoff"
+        ],
+        "ownerNote": "Ingestion pipelines and FX normalization layer structured; cross-market reconciliation algorithms in progress."
+      }
+    },
+    {
+      "id": "time-announcer",
+      "slug": "time-announcer",
+      "title": "Time Announcer",
+      "status": "DEVELOPED",
+      "tagline": "A voice for the passing minutes.",
+      "description": "A time announcement application. [TODO: owner to add language, platform and features]",
+      "nodeIndex": 3,
+      "color": "#B8FF6B",
+      "details": {
+        "overview": "A dedicated application designed to announce time intervals programmatically with customized voice queues and scheduling options.",
+        "problem": "Users and operators in timed or hands-busy environments need audible temporal landmarks without breaking focus to inspect physical or digital displays.",
+        "architectureDiagram": "System Clock / Interval Scheduler -> Notification Engine -> Audio Synthesizer / Speech Output",
+        "technologies": ["Python", "Audio Processing", "System APIs"],
+        "highlights": [
+          "Lightweight scheduled execution with minimal resource footprint",
+          "Customizable alert frequencies and voice feedback parameters",
+          "Reliable temporal synchronization"
+        ],
+        "ownerNote": "[TODO: owner to add language, platform and features. Details coming soon.]"
+      }
+    }
+  ]
+}

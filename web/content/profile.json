@@ -1,0 +1,35 @@
+{
+  "name": "Nadir Saidi",
+  "handle": "Nadir31337",
+  "email": "mohn4560@gmail.com",
+  "location": "Istanbul, Türkiye",
+  "github": "https://github.com/Nadir31337",
+  "marqueeText": "ALWAYS ON // ALWAYS RELIABLE //",
+  "hero": {
+    "eyebrow": "SOFTWARE ENGINEERING STUDENT / ISTANBUL",
+    "headline": "I build backends that stay awake so others can sleep.",
+    "subline": "Fourth-year Software Engineering student focused on backend development, API reliability and AI-powered applications. Looking for an internship where I can ship real software.",
+    "toggleLabels": {
+      "readMe": "Read Me",
+      "moveMe": "Move Me"
+    },
+    "ctas": [
+      { "label": "View projects", "href": "#projects", "primary": true },
+      { "label": "Get in touch", "href": "#contact", "primary": false },
+      { "label": "Download CV", "href": "/cv.pdf", "primary": false, "download": true }
+    ]
+  },
+  "about": {
+    "bio": "I'm a fourth-year Software Engineering student at BAU in Istanbul. I work mostly in Python (FastAPI, Django) and Java (Spring Boot), and I care about the unglamorous parts of software: whether an API is up, whether it behaves the way it promises, and whether it can be tested. I'm also exploring how AI can be integrated into real applications in a practical, reliable way. I speak Arabic, French, English and Turkish, so I'm comfortable working across languages, cultures and stakeholders.",
+    "interestTags": [
+      "API monitoring and reliability",
+      "Automated testing",
+      "AI application integration",
+      "Requirements analysis",
+      "Data collection and processing"
+    ]
+  },
+  "footer": {
+    "tagline": "Built with care, backed with tests."
+  }
+}

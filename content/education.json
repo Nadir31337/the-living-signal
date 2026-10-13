@@ -1,0 +1,27 @@
+{
+  "institution": "BAU (Bahçeşehir University)",
+  "degree": "Bachelor's in Software Engineering",
+  "location": "Istanbul, Türkiye",
+  "expectedGraduation": "[TODO month, year]",
+  "showGraduationDate": false,
+  "certifications": [
+    {
+      "title": "Requirements Gathering for Secure Software Development",
+      "issuer": "University of Colorado System",
+      "date": "May 2025",
+      "credentialId": "6QBKKVDIT58X"
+    },
+    {
+      "title": "Requirements Elicitation: Artifact and Stakeholder Analysis",
+      "issuer": "University of Colorado System",
+      "date": "May 2025",
+      "credentialId": "H6235Fl5PYON"
+    },
+    {
+      "title": "Requirements Specifications: Goals and Conflict Analysis",
+      "issuer": "University of Colorado System",
+      "date": "May 2025",
+      "credentialId": "DOUSUDWMIIP"
+    }
+  ]
+}

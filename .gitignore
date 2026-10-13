@@ -1,0 +1,33 @@
+# Node / Next.js
+web/node_modules/
+node_modules/
+web/.next/
+web/out/
+web/.env*.local
+.env
+*.env
+
+# Python
+api-service/venv/
+venv/
+api-service/__pycache__/
+api-service/*/__pycache__/
+__pycache__/
+api-service/.pytest_cache/
+.pytest_cache/
+*.pyc
+*.pyo
+
+# Logs & Temporary files
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# OS & Editors
+.DS_Store
+Thumbs.db
+.idea/
+.vscode/
+*.swp
+*.swo

@@ -1,0 +1,37 @@
+{
+  "panels": [
+    {
+      "id": "build",
+      "number": "01",
+      "keyword": "BUILD",
+      "summary": "Backend services that are clean, documented and dependable.",
+      "items": [
+        "Python (FastAPI, Django)",
+        "Java (Spring Boot)",
+        "REST API development and integration"
+      ]
+    },
+    {
+      "id": "test",
+      "number": "02",
+      "keyword": "TEST",
+      "summary": "If it can't be tested, it can't be trusted.",
+      "items": [
+        "API monitoring and reliability",
+        "Automated testing and API quality",
+        "Requirements analysis and software specification"
+      ]
+    },
+    {
+      "id": "integrate",
+      "number": "03",
+      "keyword": "INTEGRATE",
+      "summary": "Connecting systems, data and AI in practical ways.",
+      "items": [
+        "AI application integration",
+        "Data collection and processing",
+        "External API integration"
+      ]
+    }
+  ]
+}

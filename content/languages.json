@@ -1,0 +1,28 @@
+{
+  "languages": [
+    {
+      "name": "Arabic",
+      "level": "Native",
+      "proficiencyPercent": 100,
+      "tag": "Native Proficiency"
+    },
+    {
+      "name": "French",
+      "level": "Native",
+      "proficiencyPercent": 100,
+      "tag": "Native Proficiency"
+    },
+    {
+      "name": "English",
+      "level": "Advanced",
+      "proficiencyPercent": 88,
+      "tag": "Full Professional / Academic"
+    },
+    {
+      "name": "Turkish",
+      "level": "Intermediate",
+      "proficiencyPercent": 65,
+      "tag": "Working Professional / Local"
+    }
+  ]
+}

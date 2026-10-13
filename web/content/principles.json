@@ -1,0 +1,19 @@
+{
+  "principles": [
+    {
+      "number": "01",
+      "title": "RELIABILITY FIRST",
+      "statement": "Software people can count on starts with knowing when it breaks."
+    },
+    {
+      "number": "02",
+      "title": "TEST EVERYTHING",
+      "statement": "Quality is built in through requirements, tests and clear specifications."
+    },
+    {
+      "number": "03",
+      "title": "STAY CURIOUS",
+      "statement": "Always learning: AI, cloud and the craft of shipping production software."
+    }
+  ]
+}
