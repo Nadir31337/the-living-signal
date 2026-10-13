@@ -3,7 +3,7 @@
 
 > Naturally futuristic: bioluminescent, organic, calm. A deep-sea and night-forest network where signals travel between nodes like mycelium.
 
-This repository is a production-ready personal portfolio built for **Nadir ** (Software Engineering student at BAU in Istanbul), designed with inspiration from [Paragon Productions](https://www.paragonproductions.co/).
+This repository is a production-ready personal portfolio built for **Nadir ** (Software Engineering student), designed with inspiration from [Paragon Productions](https://www.paragonproductions.co/).
 
 ---
 
