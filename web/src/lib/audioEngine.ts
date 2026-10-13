@@ -226,8 +226,7 @@ class GenerativeAudioEngine {
   }
 
   // Waveform data for the visualizer
-  // eslint-disable-next-line @typescript-eslint/no-explicit-any
-  public getWaveformData(outputArray: any): boolean {
+  public getWaveformData(outputArray: Uint8Array): boolean {
     if (!this.analyser || this.isMuted) {
       if (outputArray && typeof outputArray.fill === "function") {
         outputArray.fill(128);
